@@ -1,0 +1,79 @@
+@media screen and (max-width: 1200px) {
+    header .nav-item {
+        padding: 10px !important;
+    }
+    .afterDots::before{
+        display: none;
+    }
+    .afterDots::after{
+        display: none;
+    }
+    h2.achevies{
+      padding: 15px;
+    }
+    .founders h2{
+      padding: 5px 0 ;
+    }
+}
+@media screen and (max-width: 1024px) {
+  h2.achevies{
+    padding: 15px;
+  }
+  .founders h2{
+    padding: 5px 0 ;
+  }
+}
+@media screen and (max-width: 992px) {
+    header .top-header ul {
+        justify-content: center;
+    }
+    .carousel .arrowSize {
+        width: 20px;
+        height: 20px;
+    }
+    .founders h2{
+      padding: 7px 0   ;
+    }
+    h2.achevies{
+      padding: 30px;
+    }
+    .prog{
+      width: 100%;
+    }
+    
+    #_knowUs .lamp{
+      display: none;
+    }
+    #_knowUs .know_bg{
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel .carouselCaption{
+        text-align: center;
+        width: 100%;
+    }
+    .carousel .arrowSize {
+        width: 30px;
+        height: 30px;
+    }
+    h2.achevies{
+      padding: 30px 0 ;
+    }   
+}
+@media screen and (max-width: 576px) {
+  h2.achevies{
+    padding: 25px 0 ;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  h2.achevies{
+    padding: 15px 0 ;
+  }
+  .founders h2 {
+    padding: 7px 0;
+    font-size: 22px;}
+}
+
